@@ -1,5 +1,15 @@
 #container {
-	background: grey;
+	/*background: grey;*/
 	width: 360px;
 	margin: 0 auto;
+	border: 2px solid grey;
+}
+
+li {
+	cursor: pointer;
+}
+
+.completed{
+	color: gray;
+	text-decoration: line-through;
 }
