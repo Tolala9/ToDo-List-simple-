@@ -8,6 +8,7 @@ body {
 
 .fa-plus {
 	float: right;
+	cursor: pointer;
 }
 
 h1 {
@@ -32,6 +33,7 @@ li {
 	line-height: 40px;
 	color: #666;
 	cursor: pointer;
+	user-select: none;
 }
 
 li:nth-child(2) {
@@ -42,12 +44,14 @@ input {
 	font-size: 18px;
 	background-color: #f7f7f7;
 	width: 100%;
-	padding: 13px 13px 13px 20px;
+	padding: 10px 13px 10px 20px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	color: #b0ccaf;
 	border: none;
+	border: 3px solid #F7F7F7;
+	display: none;
 }
 
 input:focus{
