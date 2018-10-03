@@ -1,4 +1,4 @@
-# I'mSkill [LP]
+# ToDo List [app]
 
 That's simple To Do List that made by jQuery & CSS just for practice. 
 
